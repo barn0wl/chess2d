@@ -4,8 +4,8 @@ class_name board_controller
 
 var my_board_model: board_model
 var my_board_view: board_view
-const my_square_view_sample: PackedScene = preload("res://square_view.tscn")
-const my_sample_piece_view: PackedScene = preload("res://piece_view.tscn")
+const my_square_view_sample: PackedScene = preload("res://square/square_view.tscn")
+const my_sample_piece_view: PackedScene = preload("res://pieces/piece_view.tscn")
 
 var current_player: bool
 var selected_piece : piece_model = null

@@ -1,17 +1,17 @@
 [gd_scene load_steps=4 format=3 uid="uid://ckk4e8mjdjvb"]
 
-[ext_resource type="Script" path="res://square_view.gd" id="1_85rna"]
-[ext_resource type="Texture2D" uid="uid://cdo12q6hihdo6" path="res://square.png" id="2_4ugfl"]
+[ext_resource type="Script" path="res://square/square_view.gd" id="1_n1ojg"]
+[ext_resource type="Texture2D" uid="uid://cdo12q6hihdo6" path="res://square.png" id="2_qufpg"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_drvai"]
 size = Vector2(32, 32)
 
 [node name="square_view" type="Node2D"]
-script = ExtResource("1_85rna")
+script = ExtResource("1_n1ojg")
 
 [node name="sprite" type="Sprite2D" parent="."]
 scale = Vector2(0.5, 0.5)
-texture = ExtResource("2_4ugfl")
+texture = ExtResource("2_qufpg")
 
 [node name="Area2D" type="Area2D" parent="."]
 

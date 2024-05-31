@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bk4tp7pbnfmhb"]
 
-[ext_resource type="Script" path="res://square_model.gd" id="1_7uo1a"]
+[ext_resource type="Script" path="res://square/square_model.gd" id="1_7uo1a"]
 
 [node name="square_model" type="Node"]
 script = ExtResource("1_7uo1a")

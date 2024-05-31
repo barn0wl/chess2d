@@ -1,7 +1,7 @@
 [gd_scene load_steps=2 format=3 uid="uid://cng0htj4i0fgk"]
 
-[ext_resource type="Script" path="res://board_view.gd" id="1_fuja8"]
+[ext_resource type="Script" path="res://board/board_view.gd" id="1_ay4fi"]
 
 [node name="board_view" type="Node2D"]
 position = Vector2(192, 64)
-script = ExtResource("1_fuja8")
+script = ExtResource("1_ay4fi")
