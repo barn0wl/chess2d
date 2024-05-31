@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bhv2eqvax6rj5"]
+
+[ext_resource type="Script" path="res://rook_model.gd" id="1_8w1d0"]
+
+[node name="rook_model" type="Node"]
+script = ExtResource("1_8w1d0")

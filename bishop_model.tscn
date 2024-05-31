@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqm2b5l7ay35w"]
+
+[ext_resource type="Script" path="res://bishop_model.gd" id="1_omi7l"]
+
+[node name="bishop_model" type="Node"]
+script = ExtResource("1_omi7l")

@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=3 uid="uid://bwmhsmxpl54t4"]
+
+[ext_resource type="PackedScene" uid="uid://bf6bwui7ntlgc" path="res://piece_view.tscn" id="1_ykywp"]
+[ext_resource type="Texture2D" uid="uid://c3hhx6rj16fyw" path="res://Chess_klt45.svg" id="2_8h1sl"]
+[ext_resource type="Script" path="res://king.gd" id="2_uhvrs"]
+
+[node name="king" instance=ExtResource("1_ykywp")]
+script = ExtResource("2_uhvrs")
+
+[node name="sprite" parent="." index="0"]
+texture = ExtResource("2_8h1sl")

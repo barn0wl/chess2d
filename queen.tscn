@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=3 uid="uid://cdit2grbw6og2"]
+
+[ext_resource type="PackedScene" uid="uid://bf6bwui7ntlgc" path="res://piece_view.tscn" id="1_i7301"]
+[ext_resource type="Script" path="res://queen.gd" id="2_c5uuo"]
+[ext_resource type="Texture2D" uid="uid://xuaehfpocblo" path="res://Chess_qlt45.svg" id="3_2a0hx"]
+
+[node name="queen" instance=ExtResource("1_i7301")]
+script = ExtResource("2_c5uuo")
+
+[node name="sprite" parent="." index="0"]
+texture = ExtResource("3_2a0hx")
